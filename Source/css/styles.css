@@ -1,0 +1,33 @@
+/* Default */
+
+body {
+	font-family: "Calibri";
+	font-size: 12px;
+	line-height: 17px;	
+	letter-spacing: -0.5;
+	background-color: #f2f5f7;
+	padding: 0;
+	margin: 100px;
+	position: relative;	
+	min-width: 320px;
+}
+
+h1 {font-size: 25px;}
+h2 {font-size: 16px;
+	padding-left:1em;}
+h3 {font-size: 12px;
+	padding-left:4em;}
+p{font-size: 12px;
+	padding-left:5em;}
+
+a:link, 
+a:visited {color: #FF0000;}
+a:hover {color: rgb(111, 0, 255);}
+a:active {color: #0000FF;}
+
+/* Common */
+
+.hidden {display: none;}
+.dotted {border-bottom: 1px dotted #555555;}
+
+/* Other */
