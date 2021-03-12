@@ -1,25 +1,48 @@
-/* Default */
-
 body {
-	font-family: "Calibri";
-	font-size: 16px;
-	line-height: 16px;	
-	letter-spacing: -0.5;
+  font-family: 'Lato', san-serif;
+  font-size: 16px;
+	line-height: 18px;	
 	background-color: #f2f5f7;
 	padding-left:0.5em;
-	margin: 100px;
+	margin: 20px;
 	position: relative;	
 	min-width: 320px;
 }
 
-h1 {font-size: 25px;
-	padding-left:3em;}
-h2 {font-size: 18px;
-	padding-left:6em;}
-h3 {font-size: 16px;
-	padding-left:8em;}
-p{font-size: 14px;
-	padding-left:10em;}
+h1 {font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  padding-left:3em;}
+h2 {font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  padding-left:6em;}
+h3 {font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  padding-left:8em;}
+h4 {font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding-left:9em;}
+p {font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  padding-left:9em;}
+
+
+hr {
+  margin: 20px;
+}
+
+textarea {
+  width:100%;
+  white-space: nowrap;
+}
+
+code {
+  font-family: 'Source Code Pro', monospace;
+}
 
 .column {
 	float: left;
@@ -43,4 +66,62 @@ a:active {color: #0000FF;}
 .hidden {display: none;}
 .dotted {border-bottom: 1px dotted #555555;}
 
-/* Other */
+#header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  background: #333333;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+#title {
+  float: left;
+  padding-top: 10px;
+  padding-left: 10%;
+  color: white;
+  font-size: 1.25rem;
+}
+
+#link {
+  float: right;
+  padding-top: 10px;
+  padding-right: 10%;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#link a, #link a:hover {
+  color: mediumorchid;
+  text-decoration: none;
+}
+
+#container {
+  width: 80%;
+  max-width: 960px;
+  padding: 0 50px 0 50px;
+  margin: 0 auto;
+  display: block;
+  overflow-x: hidden;
+  background: #F0F0F0;
+}
+
+#content {
+  background: #F0F0F0;
+  margin: 50px auto 0 auto;
+  padding: 20px 0 20px 0;
+}
+
+#run {
+  margin-top: 10px;
+  border-radius: 15%;
+}
+
+#result {
+  width: 100%;
+  height: 200px;
+  overflow: auto;
+}
